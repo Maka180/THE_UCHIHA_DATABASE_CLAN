@@ -1,0 +1,14 @@
+[
+    {
+        "pran_code":1,
+        "pran_desc":"Product"
+    },
+    {
+        "pran_code":2,
+        "pran_desc":"Parts"
+    },
+    {
+        "pran_code":3,
+        "pran_desc":"Product"
+    }
+]
