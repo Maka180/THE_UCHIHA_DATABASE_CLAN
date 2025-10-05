@@ -1,0 +1,1091 @@
+customer_number,parameter
+AACJ01,Closed
+AACJC1,Closed
+AACJC2,Promotion
+AAVN01,Closed
+ABLA01,Closed
+ABLE01,Closed
+ACHBC1,Consignment
+ACHBC1,Promotional Stand
+ACHVC1,Consignment
+ACHVOC,Consignment
+ACLS02,Trading Account
+ACLSC1,Consignment
+ACLSOC,Closed
+ADIMOC,Consignment
+AFRM03,Closed
+AFRMOC,Consignment
+AFRN01,Closed
+AFRN02,Closed
+AFRN05,Trading Account
+AFRNOC,Consignment
+AGRNC1,Consignment
+AGRY01,Trading Account
+AGRYCO,Consignment
+AGUROC,Closed
+AGUROC,Consignment
+AICR03,Closed
+AICR09,Closed
+AICRC1,Consignment
+AICROC,Consignment
+AKER02,Closed
+AKHN07,Trading Account
+AKHNC1,Consignment
+AKHNOC,Consignment
+AMARC1,Consignment
+AMI02,Trading Account
+AMIC1,Consignment
+AMIOC,Closed
+AMIOC,Consignment
+AMIOOC,Consignment
+AMKNOC,Consignment
+AREL03,Closed
+ARELCO,Consignment
+ARELWM,Promotion
+ASEPOC,Consignment
+ASHN01,Trading Account
+ASHNC1,Consignment
+ASHNC1,Promotional Stand
+ASHNOC,Consignment
+ASMROC,Consignment
+ASTL01,Trading Account
+ASTLC1,Consignment
+ASTLOC,Closed
+ASTN01,Promotional Stand
+ASTN07,Closed
+ASTNC1,Promotional Stand
+ASTNC2,Consignment
+ASTNC2,Promotional Stand
+ASTNC3,Promotion
+ASTNOC,Closed
+ATHT01,Closed
+ATYL02,Closed
+ATYLC1,Consignment
+ATYLC1,Promotional Stand
+BABR02,Closed
+BGAO01,Closed
+BHAEOC,Promotional Stand
+BJMOC,Consignment
+BJOI01,Closed
+BKOROC,Consignment
+BROA01,Trading Account
+BROA02,Closed
+BROAC1,Consignment
+BROAOC,Consignment
+BURA01,Trading Account
+BURAOC,Consignment
+CADOC1,Promotional Stand
+CADOOC,Consignment
+CADOOC,Promotional Stand
+CBAH01,Closed
+CBAH02,Closed
+CBUH01,Trading Account
+CBUH02,Trading Account
+CBUH03,Closed
+CBUH2C,Closed
+CBUH3C,Closed
+CBUHC1,Consignment
+CBUHC2,Consignment
+CBUHOC,Closed
+CKOKOC,Consignment
+CNIBCO,Consignment
+CNIHC1,Consignment
+CNIHCO,Promotion
+CNIHOC,Consignment
+COCHC2,Consignment
+COCHC3,Consignment
+COCHC4,Consignment
+COCHC5,Promotion
+COCHCO,Consignment
+COCHOC,Consignment
+CPAEOC,Consignment
+CSPEN1,Consignment
+CSPEN1,Promotional Stand
+CSPENT,Consignment
+CZOC01,Closed
+DBEW01,Closed
+DBOEC,Consignment
+DBOEC,Promotional Stand
+DBOEC1,Consignment
+DBOEC1,Promotional Stand
+DBUG02,Closed
+DDA01,Trading Account
+DDAAC1,Promotion
+DDAAOC,Consignment
+DFESOC,Promotion
+DGS01,Closed
+'DGSOC,Consignment
+DHYRC1,Consignment
+DHYRC1,Promotional Stand
+DHYRC2,Consignment
+DHYRC3,Consignment
+DHYRC3,Promotional Stand
+DHYRC4,Consignment
+DHYRC4,Promotional Stand
+DHYRC5,Consignment
+DHYRC6,Consignment
+DJAEOC,Consignment
+DLEWC1,Promotional Stand
+DMCO0C,Consignment
+DMCOC1,Consignment
+DMCOC2,Consignment
+DMCOC2,Promotional Stand
+DMEI01,Trading Account
+DMEI04,Closed
+DMEI09,Closed
+DMEI12,Closed
+DMEIC1,Consignment
+DMEIC1,Promotional Stand
+DMEIC2,Promotional Stand
+DMEIOC,Closed
+DMIR01,Trading Account
+DMIRC1,Consignment
+DMIROC,Consignment
+DRAUOC,Consignment
+DREDOC,Consignment
+DREDOC,Promotion
+DVIA01,Trading Account
+DVIAC1,Promotional Stand
+DVIAOC,Consignment
+DVIE01,Closed
+DVOAC1,Closed
+DVOAOC,Closed
+EALX03,Trading Account
+EALXC1,Closed
+EALXC2,Consignment
+EALXC2,Promotional Stand
+EALXOC,Closed
+EBLC01,Closed
+EBLW01,Closed
+EBLW02,Closed
+EBRE01,Closed
+EBRW01,Closed
+ECHTCO,Consignment
+ECOT01,Closed
+ECOTOC,Consignment
+ECRW01,Closed
+ECRWC1,Closed
+ECRWOC,Closed
+EDIPOC,Consignment
+EEDN01,Closed
+EEYB01,Trading Account
+EEYBOC,Consignment
+EEYC1,Consignment
+EEYCC2,Closed
+EEYCC3,Consignment
+EEYCC5,Consignment
+EEYCC6,Consignment
+EEYCOC,Closed
+EEYD01,Closed
+EEYE02,Trading Account
+EEYEXC,Consignment
+EEYLOC,Closed
+EEYLOC,Consignment
+EEYOC,Consignment
+EEYP,Promotion
+EEYPC2,Consignment
+EEYPRF,Consignment
+EEYPRF,Promotional Stand
+EEYTC1,Consignment
+EEYTC2,Consignment
+EEYTC3,Consignment
+EEYW01,Closed
+EEYW05,Closed
+EEYZ01,Closed
+EGRWC1,Consignment
+EGRWC1,Promotional Stand
+EGRWCO,Consignment
+EIDA01,Closed
+ENIMC1,Consignment
+ENIMOC,Consignment
+EOBRC0,Consignment
+EPERC1,Consignment
+EPERC2,Consignment
+EPERC2,Promotional Stand
+EPERC3,Consignment
+EPERC3,Promotional Stand
+EPEROC,Closed
+EPRT05,Trading Account
+EPRTC1,Consignment
+EPRTOC,Consignment
+EROT01,Trading Account
+EROTC1,Promotional Stand
+EROTOC,Consignment
+ESEB01,Closed
+ESEDC1,Consignment
+ESEDC1,Promotional Stand
+ESHR07,Trading Account
+ESHRC1,Consignment
+ESHRC2,Consignment
+ESHROC,Consignment
+ESIFC1,Consignment
+ESIFOC,Consignment
+ESP106,Closed
+ESP112,Trading Account
+ESP131,Closed
+ESP148,Trading Account
+ESP149,Trading Account
+ESPBEN,Consignment
+ESPBRI,Consignment
+ESPBRM,Consignment
+ESPC07,Closed
+ESPC08,Closed
+ESPC24,Closed
+ESPC27,Closed
+ESPC32,Closed
+ESPC37,Closed
+ESPC60,Closed
+ESPC68,Trading Account
+ESPC71,Trading Account
+ESPC72,Closed
+ESPC73,Closed
+ESPC75,Closed
+ESPC79,Closed
+ESPC97,Closed
+ESPCAV,Consignment
+ESPCBO,Consignment
+ESPCBS,Consignment
+ESPCC0,Closed
+ESPCC1,Closed
+ESPCC2,Consignment
+ESPCC3,Closed
+ESPCC4,Consignment
+ESPCC5,Closed
+ESPCC6,Closed
+ESPCC7,Closed
+ESPCC8,Closed
+ESPCC9,Closed
+ESPCCA,Closed
+ESPCCB,Consignment
+ESPCCC,Consignment
+ESPCCE,Consignment
+ESPCCG,Closed
+ESPCCI,Consignment
+ESPCCK,Consignment
+ESPCCL,Consignment
+ESPCCO,Closed
+ESPCCR,Consignment
+ESPCCS,Consignment
+ESPCCT,Consignment
+ESPCCV,Consignment
+ESPCCW,Consignment
+ESPCEG,Consignment
+ESPCEN,Consignment
+ESPCEN,Promotional Stand
+ESPCFR,Consignment
+ESPCGA,Consignment
+ESPCGE,Consignment
+ESPCGR,Consignment
+ESPCHM,Consignment
+ESPCHS,Consignment
+ESPCHS,Promotional Stand
+ESPCKE,Closed
+ESPCKI,Closed
+ESPCKN,Consignment
+ESPCKW,Consignment
+ESPCKY,Consignment
+ESPCLB,Consignment
+ESPCM1,Closed
+ESPCMK,Consignment
+ESPCMM,Consignment
+ESPCMO,Consignment
+ESPCMS,Promotional Stand
+ESPCN1,Consignment
+ESPCNL,Consignment
+ESPCNL,Promotional Stand
+ESPCOC,Closed
+ESPCPA,Consignment
+ESPCPB,Consignment
+ESPCPS,Consignment
+ESPCRA,Consignment
+ESPCSG,Consignment
+ESPCSO,Closed
+ESPCSP,Consignment
+ESPCSP,Promotional Stand
+ESPCST,Consignment
+ESPCSW,Closed
+ESPCTB,Closed
+ESPCTC,Consignment
+ESPCTG,Consignment
+ESPCTL,Closed
+ESPCTS,Consignment
+ESPCTV,Consignment
+ESPCVH,Consignment
+ESPCW,Consignment
+ESPCWB,Consignment
+ESPCWE,Closed
+ESPCWK,Consignment
+ESPCWM,Consignment
+ESPGRA,Consignment
+ESPGRA,Promotional Stand
+ESPHMS,Consignment
+ESPKNY,Consignment
+ESPKNY,Promotional Stand
+ESPKO,Consignment
+ESPLIN,Consignment
+ESPNEL,Consignment
+ESPP14,Consignment
+ESPPBB,Consignment
+ESPPBB,Promotional Stand
+ESPSG1,Consignment
+ESPSOM,Consignment
+ESPSP1,Consignment
+ESPSP2,Consignment
+ESPSTL,Consignment
+ESPSWT,Consignment
+ESPTGV,Consignment
+ESPUTG,Consignment
+ESPUTG,Promotional Stand
+ESPVIS,Consignment
+ESPVIS,Promotional Stand
+ESTE01,Trading Account
+ESTEC1,Consignment
+ESTEC1,Promotional Stand
+ESTECO,Consignment
+ESTI01,Closed
+ESTIOC,Consignment
+ESTL01,Closed
+ESTPC1,Consignment
+ESTPOC,Closed
+ESTV01,Closed
+ETHE01,Closed
+ETHE02,Closed
+ETHE04,Consignment
+ETHL01,Closed
+EVIW01,Trading Account
+EVIWC1,Consignment
+EVIWC2,Consignment
+EVIWC2,Promotional Stand
+EVIWOC,Closed
+FMEC2,Consignment
+FMEOC,Consignment
+FMOF01,Trading Account
+FMOF06,Closed
+FMOFC1,Consignment
+FMOFC2,Consignment
+FMOFC2,Promotional Stand
+FMOFC3,Consignment
+FMOFC3,Promotional Stand
+FMOFC4,Consignment
+FMOFC5,Consignment
+FMOFC6,Consignment
+FMOFOC,Closed
+FMOFPM,Consignment
+FMOFPM,Promotional Stand
+GANL01,Closed
+GBEG01,Closed
+GEDACO,Consignment
+GEDACO,Promotion
+GEDEC1,Consignment
+GEDEOC,Closed
+GEGC1,Consignment
+GEGOC,Closed
+GHIH02,Closed
+GHIHOC,Consignment
+GMAA01,Closed
+GMEA01,Closed
+GMEA02,Trading Account
+GMEAC1,Consignment
+GMEACO,Consignment
+GMEAOC,Consignment
+GSAAOC,Consignment
+GWAC1,Consignment
+GWAN01,Trading Account
+HCOE01,Closed
+HISOC1,Consignment
+HISOC1,Promotional Stand
+HKAM01,Closed
+HKAM02,Trading Account
+HKAO4C,Consignment
+HMAA04,Closed
+HMAOOC,Consignment
+HMOL06,Closed
+HRAMFR,Closed
+HSCLOC,Consignment
+HSCN02,Trading Account
+HSCNC1,Consignment
+HSCNCO,Consignment
+HSCNOC,Closed
+HSCO02,Trading Account
+HSCOC1,Consignment
+HSCOC1,Promotional Stand
+HSCOC2,Consignment
+HSCOC2,Promotional Stand
+HSCOC3,Consignment
+HSCOOC,Consignment
+HTSAOC,Consignment
+HTSEC1,Consignment
+HTSEC1,Promotional Stand
+HTSECO,Consignment
+HTSEOC,Consignment
+HUML01,Trading Account
+HUMLOC,Consignment
+HUMLST,Promotional Stand
+HWALC1,Consignment
+HWALC2,Consignment
+HWALC2,Promotional Stand
+HZAEC1,Consignment
+HZAEC1,Promotional Stand
+IBEN01,Closed
+IBRD01,Closed
+IBRN01,Closed
+IDZNC1,Consignment
+IDZNC1,Promotional Stand
+IDZNC2,Consignment
+IERN03,Trading Account
+IERNC1,Promotion
+IERNOC,Consignment
+IFAROC,Consignment
+IFREC1,Consignment
+IFREOC,Consignment
+IHEN01,Trading Account
+IHENC1,Consignment
+IHENC2,Closed
+IHENC2,Consignment
+IHENCS,Consignment
+IHENCS,Promotional Stand
+IHENOC,Consignment
+IIJEC1,Consignment
+IIJEC1,Promotional Stand
+IKRE01,Closed
+IKRE02,Closed
+IKRE04,Closed
+IKRT01,Closed
+IMEE02,Closed
+IMER03,Trading Account
+IMERC1,Consignment
+IMERCO,Promotion
+IMEROC,Consignment
+INAD02,Trading Account
+INAD04,Trading Account
+INADC1,Consignment
+INADC2,Closed
+INADC3,Promotional Stand
+INADCO,Consignment
+INADOC,Consignment
+INADVM,Consignment
+IOLVC1,Consignment
+IONOOC,Consignment
+IPAG01,Closed
+IPAG01,Trading Account
+IPAG2C,Consignment
+IPAGC1,Consignment
+IPAGCO,Consignment
+IPAGOC,Consignment
+ISMTC1,Consignment
+ISMTOC,Consignment
+ISPL01,Closed
+ISPL02,Trading Account
+ISPLC1,Consignment
+ISPLCE,Consignment
+ISPLCE,Promotional Stand
+ISPLOC,Closed
+IWAN01,Closed
+IWEN01,Closed
+JSEAOC,Consignment
+KACE01,Closed
+KATI01,Closed
+KBAEC2,Consignment
+KBAEC2,Promotional Stand
+KDEAOC,Consignment
+KJAEC1,Consignment
+KJAEC1,Promotional Stand
+KKOSC1,Consignment
+KKOSC1,Promotional Stand
+KMAA02,Trading Account
+KMAA03,Closed
+KMAAC1,Consignment
+KMAACO,Consignment
+KMOH01,Closed
+KMOOC1,Consignment
+KMOOC1,Promotional Stand
+KOAS0C,Closed
+KOAS0C,Consignment
+KOSOOC,Consignment
+LALI02,Closed
+LBAL01,Closed
+LBAT01,Closed
+LBOL01,Closed
+LELEOC,Consignment
+LFECO,Consignment
+LFIAOC,Consignment
+LGIE01,Closed
+LGIEOC,Closed
+LGIEOC,Consignment
+LHOLCO,Consignment
+LLAU01,Closed
+LMAAC1,Consignment
+LMAAOC,Consignment
+LMEL06,Promotional Stand
+LMELC1,Consignment
+LMELC2,Promotion
+LMELC2,Promotional Stand
+LMELC3,Closed
+LMELC3,Consignment
+LMELC4,Promotional Stand
+LMELC5,Consignment
+LMELC5,Promotional Stand
+LMELC6,Consignment
+LMELC6,Promotional Stand
+LMELC7,Consignment
+LMELC7,Promotional Stand
+LMELOC,Closed
+LMEVOC,Consignment
+LMOD01,Closed
+LMODOC,Consignment
+LMUL10,Closed
+LNEOC,Consignment
+LPIL04,Closed
+LSAE01,Closed
+LSAE06,Consignment
+LSOEC3,Consignment
+LSOEC3,Promotional Stand
+LSOEOC,Consignment
+LSOEPR,Promotion
+LSOO01,Trading Account
+LSOOC1,Consignment
+LSOOOC,Closed
+LTIL01,Trading Account
+LTILCO,Consignment
+LTILOC,Consignment
+LTILOC,Promotional Stand
+LVAJC1,Consignment
+LVIL01,Closed
+LVIL02,Trading Account
+LVILC1,Consignment
+LVILOC,Closed
+LWAS01,Closed
+LWIC01,Closed
+LWIK02,Closed
+LWIL02,Closed
+LWIL03,Closed
+LWIS01,Closed
+MASAC1,Consignment
+MASAC1,Promotional Stand
+MASAOC,Consignment
+MCAPC1,Consignment
+MCOA01,Closed
+MFEIOC,Consignment
+MGACO,Consignment
+MGACO,Promotional Stand
+MGAS01,Trading Account
+MLECO,Consignment
+MLEN01,Trading Account
+MLOBC1,Consignment
+MMOEC1,Consignment
+MMOEC1,Promotional Stand
+MNAI01,Closed
+MOSAOC,Consignment
+MRAKOC,Closed
+MRAU01,Closed
+MSAW01,Trading Account
+MSAW02,Trading Account
+MSAWC1,Consignment
+MSAWC1,Promotional Stand
+MSAWC2,Consignment
+NBEM01,Closed
+NBET01,Closed
+NBOD01,Closed
+NBOT01,Closed
+NBOT02,Closed
+NBOT03,Closed
+NCOS01,Closed
+NCOS02,Consignment
+NDUD01,Closed
+NJIAC1,Consignment
+NJIAC1,Promotional Stand
+NJOE03,Closed
+NKEYOC,Consignment
+NKIGOC,Consignment
+NKOQ01,Trading Account
+NKOQC1,Consignment
+NKOQOC,Closed
+NLIK01,Closed
+NMAA02,Closed
+NMAOC1,Consignment
+NMAOCC,Consignment
+NMAOOC,Consignment
+NMESOC,Consignment
+NMIG01,Closed
+NMIGC1,Consignment
+NMIGC2,Consignment
+NMIGC2,Promotional Stand
+NMOEOC,Consignment
+NPINC1,Consignment
+NRADC1,Consignment
+NRADOC,Consignment
+NRASC1,Consignment
+NSADOC,Consignment
+NSUC01,Closed
+NSUC10,Promotion
+NSUERM,Consignment
+NSUERM,Promotional Stand
+NSUEYE,Consignment
+NSUEYE,Promotional Stand
+NSUG02,Closed
+NSUG11,Trading Account
+NSUG17,Closed
+NSUG4U,Promotional Stand
+NSUGC1,Promotional Stand
+NSUGC2,Promotional Stand
+NSUGC4,Closed
+NSUGC5,Consignment
+NSUGC5,Promotional Stand
+NSUGC7,Closed
+NSUGC8,Consignment
+NSUGC9,Promotion
+NSUGEG,Consignment
+NSUGEG,Promotional Stand
+NSUGHT,Consignment
+NSUGME,Promotional Stand
+NSUGOC,Consignment
+NSUGSZ,Consignment
+NSUGZS,Consignment
+NSUGZS,Promotional Stand
+NSUN01,Closed
+NSUO03,Closed
+NSUOOC,Closed
+NSUOPT,Consignment
+NSUS08,Closed
+NSUSC1,Consignment
+NSUSOC,Closed
+NSUWR1,Consignment
+NVAA01,Closed
+NVABC1,Promotion
+NVABCO,Consignment
+NVABOC,Closed
+NVAD02,Closed
+NVAD04,Closed
+NVAD08,Closed
+NVAG02,Closed
+NVAG03,Trading Account
+NVAG04,Trading Account
+NVAGC1,Consignment
+NVAGC2,Consignment
+NVAGOC,Closed
+NVAM01,Closed
+NVAN01,Trading Account
+NVAN02,Closed
+NVAN03,Closed
+NVANC1,Consignment
+NVANOC,Consignment
+NVAR02,Closed
+NVAR09,Trading Account
+NVARC1,Closed
+NVARC2,Consignment
+NVARCO,Consignment
+NVAROC,Closed
+NVAS01,Closed
+NVAS04,Closed
+NVET01,Closed
+NVET02,Closed
+NVET03,Closed
+NVOR01,Closed
+NWIB01,Closed
+OAVNC1,Closed
+OAVNOC,Closed
+OBCP01,Closed
+OBHO02,Closed
+OBHO03,Trading Account
+OBHOC1,Closed
+OBHOOC,Consignment
+OBHOPC,Consignment
+OBLC01,Closed
+OBLCC1,Consignment
+OBLCOC,Closed
+OBOYOC,Consignment
+OBRW01,Closed
+OCLI01,Closed
+OCOK01,Closed
+OCOK02,Closed
+OCOK03,Closed
+OEBN01,Closed
+OFLRC1,Consignment
+OFLROC,Consignment
+OGLBOC,Consignment
+OGLV01,Closed
+OGODC1,Consignment
+OGODC2,Consignment
+OGODOC,Consignment
+OIFC01,Trading Account
+OIFCC1,Consignment
+OIFCOC,Consignment
+OIRNOC,Closed
+OKHT01,Trading Account
+OKHTC1,Consignment
+OKHTOC,Consignment
+OKNB01,Closed
+OKNB02,Closed
+OKNX01,Closed
+OKRG01,Closed
+OMBM01,Closed
+OMOLC1,Consignment
+OMOLC1,Promotional Stand
+OPRFC1,Closed
+OPRFC3,Consignment
+OPRFOC,Closed
+OPRM01,Promotion
+OPRMOC,Consignment
+OPRMOC,Promotion
+OPRO01,Closed
+OPRO03,Closed
+OROS01,Trading Account
+OROS05,Trading Account
+OROS06,Trading Account
+OROSC1,Consignment
+OROSC2,Consignment
+OROSC3,Consignment
+OROSCC,Consignment
+OROSCO,Consignment
+OROSOC,Closed
+OSAA01,Closed
+OSAA03,Closed
+OSLPC1,Promotional Stand
+OSPLOC,Consignment
+OSPRC2,Consignment
+OSPROC,Consignment
+OWODOC,Consignment
+OWODOC,Promotional Stand
+PCOT01,Closed
+PDILOC,Consignment
+PHYE02,Trading Account
+PHYEC1,Consignment
+PJEP01,Closed
+PKAI01,Closed
+PMSE01,Trading Account
+PMSEC1,Consignment
+PMSEOC,Closed
+PPAPC1,Consignment
+PPAPC2,Closed
+PPAPCO,Consignment
+PPAPOC,Closed
+PROE01,Trading Account
+PROE0C,Closed
+PROEC1,Consignment
+PROEC2,Consignment
+PROEC2,Promotional Stand
+PROECO,Consignment
+PROEOC,Closed
+PSUCAM,Consignment
+PSUCAM,Promotional Stand
+PSUE02,Trading Account
+PSUEC1,Consignment
+PSUEC2,Closed
+PSUEC3,Consignment
+PSUEOC,Consignment
+RABA01,Closed
+RABAC1,Consignment
+RABACO,Consignment
+RABAO1,Trading Account
+RABAOC,Closed
+RAFO01,Closed
+RARA01,Closed
+RBEE01,Closed
+RBEM02,Trading Account
+RBEMC1,Consignment
+RBEMOC,Closed
+RBUGC1,Consignment
+RBUNC1,Consignment
+RBUNOC,Closed
+RBUR01,Closed
+RCAEC1,Consignment
+RCHI01,Closed
+RCON03,Closed
+RCON04,Closed
+RDIEOC,Consignment
+RDOFC0,Consignment
+RDOFOC,Consignment
+RHOSC1,Consignment
+RHOSE1,Trading Account
+RKAEC1,Consignment
+RKAEC1,Promotional Stand
+RKAEC2,Consignment
+RKELC1,Consignment
+RKELC1,Promotional Stand
+RKELOC,Consignment
+RKIK01,Closed
+RKOBOC,Consignment
+RMAAC1,Consignment
+RMAAC2,Promotional Stand
+RMAAOC,Consignment
+RMABOC,Consignment
+RMAE01,Trading Account
+RMAEC0,Consignment
+RMAIOC,Consignment
+RMAKCO,Promotion
+RMEE01,Closed
+RNOT04,Trading Account
+RNOTOC,Consignment
+RPAMC2,Consignment
+RPAMC2,Promotional Stand
+RPAMOC,Closed
+RSADOC,Promotion
+RSAIOC,Consignment
+RSTAC1,Consignment
+RSTAOC,Closed
+RSTO01,Closed
+RSTU01,Closed
+RSTUOC,Consignment
+RSUT01,Closed
+RTOG09,Trading Account
+RTOG12,Trading Account
+RTOGC2,Closed
+RTOGC3,Closed
+RTOGC4,Closed
+RTOGC5,Promotion
+RTOGC6,Consignment
+RTOGC7,Consignment
+RTOGC7,Promotion
+RTOGC8,Promotion
+RTOGCO,Consignment
+RTOGOC,Consignment
+RTOGOP,Promotional Stand
+RVAI02,Closed
+RVES01,Closed
+SABO01,Trading Account
+SABOC1,Consignment
+SAS001,Closed
+SASOC1,Consignment
+SASOC1,Promotional Stand
+SASOC2,Consignment
+SBETC1,Consignment
+SBETOC,Closed
+SBIH01,Closed
+SBIM01,Trading Account
+SBIMC1,Consignment
+SCAA01,Closed
+SCAOOC,Consignment
+SCOM01,Closed
+SCOMOC,Consignment
+SDEM01,Trading Account
+SDEMC1,Consignment
+SDEMOC,Consignment
+SEAT04,Trading Account
+SEATC1,Consignment
+SEATOC,Consignment
+SESEOC,Consignment
+SHAS02,Closed
+SINI01,Trading Account
+SINIC1,Consignment
+SINIOC,Consignment
+SKAO01,Trading Account
+SKAOC1,Consignment
+SKAOOC,Consignment
+SLEHCO,Promotional Stand
+SMAT02,Trading Account
+SMATC1,Consignment
+SMATC1,Promotional Stand
+SMATC2,Consignment
+SMTHOC,Consignment
+SNUI02,Trading Account
+SNUIC1,Consignment
+SNUOC,Closed
+SPIT01,Trading Account
+SPITCO,Consignment
+SROEC1,Consignment
+SROOOC,Consignment
+SUYO01,Closed
+SVII04,Closed
+SVII06,Closed
+SVII17,Trading Account
+SVIIC1,Consignment
+SVIIC2,Consignment
+SVIIC2,Promotional Stand
+SVIIOC,Consignment
+SVIIOC,Promotional Stand
+SVIISQ,Consignment
+SVIIU1,Consignment
+SVIOC,Consignment
+SVIT01,Closed
+SWET03,Trading Account
+SWET05,Closed
+SWETC1,Consignment
+SWETC2,Consignment
+SWETC2,Promotional Stand
+SWETC3,Consignment
+SWETOC,Closed
+SWIE01,Closed
+SWIEC1,Consignment
+SWIEOC,Closed
+SYSE02,Closed
+SYSE03,Closed
+SYSEOC,Consignment
+TACIC2,Consignment
+TACIC2,Promotional Stand
+TBEHCO,Consignment
+TBOJC1,Consignment
+TBOJOC,Closed
+TEXR01,Closed
+TEXR02,Closed
+THC01,Trading Account
+THC02,Trading Account
+THCC1,Consignment
+TINOOC,Consignment
+TINRC1,Consignment
+TINRC1,Promotional Stand
+TINRC2,Consignment
+TKAZC1,Consignment
+TKOZ01,Closed
+TLAI01,Closed
+TMAH02,Closed
+TMALOC,Consignment
+TMALOC,Promotional Stand
+TMNU01,Closed
+TMOAOC,Consignment
+TMUH01,Trading Account
+TMUHC1,Consignment
+TNAHC1,Closed
+TNAHC1,Consignment
+TNAHC2,Consignment
+TNAHC2,Promotional Stand
+TNAHOC,Consignment
+TNAHOC,Promotional Stand
+TNETOC,Consignment
+TOPBOT,Consignment
+TOPBOT,Promotional Stand
+TOPC10,Consignment
+TOPC11,Closed
+TOPC11,Consignment
+TOPC13,Consignment
+TOPC13,Promotional Stand
+TOPC14,Closed
+TOPCC1,Consignment
+TOPCC2,Closed
+TOPCC3,Consignment
+TOPCC4,Consignment
+TOPFCS,Consignment
+TOPI05,Closed
+TOPI26,Closed
+TOPI28,Closed
+TOPI45,Closed
+TOPI47,Closed
+TOPI49,Trading Account
+TOPIC1,Consignment
+TOPIC1,Promotional Stand
+TOPIC2,Consignment
+TOPIC3,Consignment
+TOPIC4,Closed
+TOPIC4,Consignment
+TOPIC5,Consignment
+TOPIC7,Consignment
+TOPIC8,Consignment
+TOPIC9,Consignment
+TOPICC,Consignment
+TOPICO,Consignment
+TOPIKC,Consignment
+TOPIOC,Consignment
+TOPIVN,Consignment
+TOPO01,Trading Account
+TOPOC1,Consignment
+TOPOOC,Consignment
+TPAEC1,Consignment
+TPAEC1,Promotional Stand
+TSUTOC,Consignment
+TWAEC1,Consignment
+TWAEOC,Closed
+TWEZ01,Closed
+TWIBC1,Consignment
+TWIBC1,Promotional Stand
+TWIBC2,Consignment
+UBAE01,Trading Account
+UBAEOC,Consignment
+UBLF01,Closed
+UBLSOC,Consignment
+UBOG01,Closed
+UBOG02,Closed
+UBOMC1,Consignment
+UDRMOC,Consignment
+UFAL01,Closed
+UFALOC,Closed
+UFALOC,Consignment
+UFOR01,Closed
+UFORC1,Consignment
+UFOROC,Consignment
+UKRG01,Closed
+UKRS01,Closed
+ULADC1,Consignment
+ULADC1,Promotional Stand
+UMNKC1,Consignment
+UMNKC1,Promotional Stand
+UMOT01,Trading Account
+UMOTC1,Consignment
+UNET01,Trading Account
+UNET02,Closed
+UNETC1,Consignment
+UNETC1,Promotional Stand
+UNETOC,Consignment
+USOTC1,Consignment
+UTREOC,Consignment
+UYOOC,Consignment
+UYORC1,Consignment
+UYORC1,Promotional Stand
+VADE02,Closed
+VDAE01,Consignment
+VDAEOC,Consignment
+VDAI01,Closed
+VDEI01,Closed
+VDEROC,Consignment
+VDICO,Consignment
+VDII01,Trading Account
+VGOEC1,Consignment
+VGOEC2,Consignment
+VGOEOC,Closed
+VINE01,Closed
+VLEI02,Trading Account
+VLEI05,Closed
+VLEIC1,Consignment
+VLEIOC,Consignment
+VLEYC1,Consignment
+VLEYOC,Consignment
+VRIO01,Trading Account
+VRIO02,Closed
+VRIOC1,Consignment
+VRIOC2,Consignment
+VRIOC2,Promotional Stand
+VRIOOC,Closed
+WCOA01,Trading Account
+WCOAC1,Closed
+WCOAOC,Closed
+WHOE01,Trading Account
+WHOEC1,Consignment
+WHOEOC,Consignment
+WNECON,Consignment
+WNEMA,Consignment
+XFOD01,Closed
+XFOY01,Trading Account
+XFOYC1,Consignment
+XFOYC2,Consignment
+XFOYC3,Consignment
+XFOYC3,Promotional Stand
+XFOYC4,Consignment
+XFOYC4,Promotional Stand
+YBOS01,Closed
+YBRA01,Closed
+YBUCO,Consignment
+YBUCO,Promotion
+YBUS01,Closed
+YBUS02,Closed
+YBUS03,Closed
+YBUS04,Closed
+YBUS05,Closed
+YBUS06,Closed
+YBUS07,Closed
+YBUS08,Closed
+YBUS09,Closed
+YHAA01,Closed
+YMAFC0,Consignment
+YMEEC1,Consignment
+YMEEO6,Trading Account
+YMEEOC,Consignment
+YMEESA,Consignment
+YREN03,Trading Account
+YRENC1,Consignment
+YROA14,Promotion
+YSTLC1,Consignment
+YSTLC2,Promotion
+YSTLOC,Consignment
+ZDEI01,Trading Account
+ZDEIOC,Consignment
+ZDOE02,Closed
+ZHAY01,Closed
+ZNAEOC,Consignment

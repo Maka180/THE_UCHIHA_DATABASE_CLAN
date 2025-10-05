@@ -1,0 +1,138 @@
+[
+    {
+        "region_code":"000",
+        "region_desc":"Unknown"
+    },
+    {
+        "region_code":"10a",
+        "region_desc":"Durban"
+    },
+    {
+        "region_code":"10b",
+        "region_desc":"Midlands"
+    },
+    {
+        "region_code":"11a",
+        "region_desc":"Free State \/ Lesotho"
+    },
+    {
+        "region_code":"11b",
+        "region_desc":"Ermelo \/ Piet Retief"
+    },
+    {
+        "region_code":"12a",
+        "region_desc":"Stores"
+    },
+    {
+        "region_code":"1a",
+        "region_desc":"Pretoria Central"
+    },
+    {
+        "region_code":"1b",
+        "region_desc":"Pretoria North\/South\/West"
+    },
+    {
+        "region_code":"1c",
+        "region_desc":"Pretoria East"
+    },
+    {
+        "region_code":"1d",
+        "region_desc":"Pretoria"
+    },
+    {
+        "region_code":"1e",
+        "region_desc":"Witbank\/Middelburg"
+    },
+    {
+        "region_code":"20a",
+        "region_desc":"CONS"
+    },
+    {
+        "region_code":"21a",
+        "region_desc":"ADAPRO"
+    },
+    {
+        "region_code":"21b",
+        "region_desc":"Samples"
+    },
+    {
+        "region_code":"21c",
+        "region_desc":"Stock - Defectives"
+    },
+    {
+        "region_code":"25a",
+        "region_desc":"Closed - Bad Debts"
+    },
+    {
+        "region_code":"25b",
+        "region_desc":"Closed"
+    },
+    {
+        "region_code":"2a",
+        "region_desc":"Vaal Triangle"
+    },
+    {
+        "region_code":"2b",
+        "region_desc":"Krugersdorp \/ Sun City"
+    },
+    {
+        "region_code":"2c",
+        "region_desc":"Potch \/ Krugersdorp \/ Kuruman"
+    },
+    {
+        "region_code":"2d",
+        "region_desc":"Rustenburg"
+    },
+    {
+        "region_code":"3a",
+        "region_desc":"Soweto\/Lenasia"
+    },
+    {
+        "region_code":"3b",
+        "region_desc":"Johannesburg CBD"
+    },
+    {
+        "region_code":"4a",
+        "region_desc":"Pietersburg \/ Potgietersrus"
+    },
+    {
+        "region_code":"4b",
+        "region_desc":"Nelspruit \/ Tzaneen"
+    },
+    {
+        "region_code":"5a",
+        "region_desc":"Botswana and Exports"
+    },
+    {
+        "region_code":"5b",
+        "region_desc":"Reps Trip - Botswana"
+    },
+    {
+        "region_code":"6a",
+        "region_desc":"East Cape"
+    },
+    {
+        "region_code":"6b",
+        "region_desc":"West Cape"
+    },
+    {
+        "region_code":"7a",
+        "region_desc":"Gauteng N - Sandton"
+    },
+    {
+        "region_code":"7b",
+        "region_desc":"Gauteng N - Randburg\/Rivonia"
+    },
+    {
+        "region_code":"7c",
+        "region_desc":"Gauteng N - Eastgate\/Norwood\/Midrand"
+    },
+    {
+        "region_code":"8a",
+        "region_desc":"Gauteng E - Alberton\/Benoni\/Kempton"
+    },
+    {
+        "region_code":"9a",
+        "region_desc":"House Accounts"
+    }
+]
