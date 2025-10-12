@@ -1,22 +1,3 @@
-[
-    {
-        "transtype_code":1,
-        "transtype_desc":"TAX INVOICE"
-    },
-    {
-        "transtype_code":2,
-        "transtype_desc":"CREDIT NOTE"
-    },
-    {
-        "transtype_code":3,
-        "transtype_desc":"CONSIGNMENT NOTE"
-    },
-    {
-        "transtype_code":4,
-        "transtype_desc":"CONSIGNMENT CREDIT NOTE"
-    },
-    {
-        "transtype_code":5,
-        "transtype_desc":"CONSIGNMENT TAX INVOICE"
-    }
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac472d182c82cddee3381f87567d9a44bf41ac19ca74f834fb62aad4bd6566ad
+size 452

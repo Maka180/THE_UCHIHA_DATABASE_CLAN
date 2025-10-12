@@ -2,13 +2,26 @@ import time
 import random
 import json
 from datetime import datetime
+# --- NEW IMPORTS FOR MONGODB ---
+from pymongo import MongoClient
+# -------------------------------
 from kafka import KafkaProducer
 from kafka.errors import NoBrokersAvailable
 
 # ======================================
-# 🔧 Kafka Connection Setup (Phase 2)
+# 🔧 MongoDB Connection Setup
 # ======================================
-# NOTE: You MUST have a running Kafka Broker at this address.
+# *** IMPORTANT: REPLACE WITH YOUR ACTUAL MONGO_URI ***
+MONGO_URI = "mongodb+srv://lacyfarasi09_db_user:DBMaka08@cluster0.tff7boz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DATABASE = "ClearVueBI"
+MONGO_COLLECTION = "simulated_payments_stream" # Target collection for the generated data
+
+mongo_client = None
+mongo_db = None
+
+# ======================================
+# 🔧 Kafka Connection Setup
+# ======================================
 KAFKA_BROKER = "localhost:9092" 
 KAFKA_TOPIC = "clearvue_payments"
 
@@ -16,11 +29,10 @@ KAFKA_TOPIC = "clearvue_payments"
 # Sample data for simulation
 # ======================================
 PAYMENT_METHODS = ["EFT", "Credit Card", "Cash"]
-# Assuming these customer numbers exist in your 'Customer' collection for realism
 SAMPLE_CUSTOMER_NUMBERS = [f"CUST_{i:04}" for i in range(1000, 1010)] 
 
 # ======================================
-# ⚙️ Stream Generation Logic
+# ⚙️ Stream Generation Logic (Unchanged)
 # ======================================
 
 def generate_payment_document(sequence_id):
@@ -31,14 +43,11 @@ def generate_payment_document(sequence_id):
     customer_num = random.choice(SAMPLE_CUSTOMER_NUMBERS)
     method = random.choice(PAYMENT_METHODS)
     
-    # Generate a realistic amount (between 100 and 15,000)
     amount = round(random.uniform(100.00, 15000.00), 2)
 
     document = {
-        # Use a unique ID incorporating the current time and sequence number
         "payment_id": f"P-{payment_time.strftime('%Y%m%d%H%M%S')}-{sequence_id}",
         "customer_number": customer_num,
-        # Convert datetime object to ISO 8601 string for JSON serialization
         "payment_date": payment_time.isoformat(), 
         "total_paid": amount,
         "payment_method": method,
@@ -47,55 +56,71 @@ def generate_payment_document(sequence_id):
     }
     return document
 
-def stream_payments_to_kafka():
-    """Connects to Kafka and streams simulated payment data."""
+def stream_payments_to_kafka_and_mongo():
+    """Connects to Kafka and MongoDB, then streams simulated payment data to both."""
+    global mongo_client, mongo_db
     producer = None
+    
     try:
-        # Initialize Kafka Producer
-        # value_serializer converts the Python dictionary into a JSON byte string
+        # --- 1. Setup Connections ---
+        
+        # MongoDB Setup
+        mongo_client = MongoClient(MONGO_URI)
+        mongo_db = mongo_client[MONGO_DATABASE]
+        mongo_collection = mongo_db[MONGO_COLLECTION]
+        print(f"✅ Connected to MongoDB database: '{MONGO_DATABASE}'")
+
+        # Kafka Setup
         producer = KafkaProducer(
             bootstrap_servers=[KAFKA_BROKER],
             value_serializer=lambda v: json.dumps(v).encode('utf-8'),
-            api_version=(0, 10, 1) # Specify a supported Kafka API version
+            api_version=(0, 10, 1) 
         )
 
-        print(f"Connected to Kafka broker at {KAFKA_BROKER}. Starting payment stream producer...")
-        print(f"Sending data to topic: {KAFKA_TOPIC}\n")
+        print(f"✅ Connected to Kafka broker at {KAFKA_BROKER}.")
+        print(f"Sending data to Kafka topic: {KAFKA_TOPIC} AND MongoDB collection: {MONGO_COLLECTION}\n")
 
+        # --- 2. Start Streaming Loop ---
         document_counter = 1
         
         while True:
             # 1. Generate the new document
             new_payment = generate_payment_document(document_counter)
             
-            # 2. Send the message to the Kafka topic
-            # send() is asynchronous; it returns a future object
-            future = producer.send(KAFKA_TOPIC, value=new_payment)
+            # 2. Save the document to MongoDB (Simulate application saving data)
+            # .copy() ensures the original dictionary is inserted, preventing unexpected changes
+            mongo_collection.insert_one(new_payment.copy()) 
+            
+            # 3. Send the message to the Kafka topic
+            producer.send(KAFKA_TOPIC, value=new_payment)
             producer.flush() # Ensure message is sent promptly
 
-            print(f"[{datetime.now().strftime('%H:%M:%S')}] Produced #{document_counter}: ID {new_payment['payment_id']} | Cust {new_payment['customer_number']} | R{new_payment['total_paid']:.2f}")
-            
-            # Check for success/failure (optional, but good practice)
-            # record_metadata = future.get(timeout=10)
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] Produced #{document_counter}: R{new_payment['total_paid']:.2f} | Sent to Kafka & Mongo")
             
             document_counter += 1
             
-            # Pause for a short period to simulate real-time stream flow (1 to 3 seconds)
+            # Pause for a short period to simulate real-time stream flow
             time.sleep(random.uniform(1, 3))
 
     except NoBrokersAvailable:
         print(f"\n❌ FATAL ERROR: No Kafka brokers available at {KAFKA_BROKER}. Please ensure Kafka is running.")
-    except KeyboardInterrupt:
-        print("\n🛑 Kafka Producer manually stopped.")
     except Exception as e:
         print(f"\n❌ AN UNEXPECTED ERROR OCCURRED: {e}")
+    except KeyboardInterrupt:
+        print("\n🛑 Producer manually stopped.")
+        
     finally:
+        # --- 3. Close Connections ---
         if producer:
             producer.close()
             print("Kafka producer connection closed.")
+        if mongo_client:
+            mongo_client.close()
+            print("MongoDB connection closed.")
+
 
 # ======================================
 # 🚀 Run
 # ======================================
 if __name__ == "__main__":
-    stream_payments_to_kafka()
+    stream_payments_to_kafka_and_mongo()

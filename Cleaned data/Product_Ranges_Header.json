@@ -1,14 +1,3 @@
-[
-    {
-        "pran_code":1,
-        "pran_desc":"Product"
-    },
-    {
-        "pran_code":2,
-        "pran_desc":"Parts"
-    },
-    {
-        "pran_code":3,
-        "pran_desc":"Product"
-    }
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea66e311d4a916249282434e3adcb79a7568f2e3cd115387b12b39b014b19620
+size 211
