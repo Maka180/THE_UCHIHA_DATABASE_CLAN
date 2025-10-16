@@ -1,4 +1,3 @@
-
 import time
 import json
 from datetime import datetime
@@ -22,7 +21,52 @@ KAFKA_BROKER = "localhost:9092"
 SALES_TOPIC = "clearvue_sales_orders"
 
 # ======================================
-# Stream Sales Data from MongoDB
+# Stream Existing Sales Data (One-Time)
+# ======================================
+def stream_existing_sales_data(producer, header_col, line_col):
+    print(f"Streaming existing sales data to topic: {SALES_TOPIC}\n")
+    for header_doc in header_col.find():
+        trans_no = header_doc.get("transNo")
+        if not trans_no:
+            continue
+
+        lines = list(line_col.find({"transNo": trans_no}))
+        header_doc["sales_lines"] = lines
+        header_doc["_id"] = str(header_doc["_id"])
+        for line in lines:
+            line["_id"] = str(line["_id"])
+
+        producer.send(SALES_TOPIC, value=header_doc)
+        producer.flush()
+
+        print(f"[{datetime.now().strftime('%H:%M:%S')}] Streamed SALE: {trans_no} with {len(lines)} lines")
+        time.sleep(1)
+
+# ======================================
+# Stream New Inserts in Real-Time
+# ======================================
+def stream_new_sales_data(producer, header_col, line_col):
+    print(f"Listening for new inserts on collection: {SALES_HEADER_COLLECTION}\n")
+    with header_col.watch([{'$match': {'operationType': 'insert'}}]) as stream:
+        for change in stream:
+            full_doc = change['fullDocument']
+            trans_no = full_doc.get("transNo")
+            if not trans_no:
+                continue
+
+            lines = list(line_col.find({"transNo": trans_no}))
+            full_doc["sales_lines"] = lines
+            full_doc["_id"] = str(full_doc["_id"])
+            for line in lines:
+                line["_id"] = str(line["_id"])
+
+            producer.send(SALES_TOPIC, value=full_doc)
+            producer.flush()
+
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] Streamed NEW SALE: {trans_no} with {len(lines)} lines")
+
+# ======================================
+# Unified Streaming Runner
 # ======================================
 def stream_sales_data():
     producer = None
@@ -42,35 +86,18 @@ def stream_sales_data():
             value_serializer=lambda v: json.dumps(v, default=json_util.default).encode('utf-8'),
             api_version=(0, 10, 1)
         )
-        print(f" Connected to Kafka broker at {KAFKA_BROKER}")
-        print(f"Streaming sales data to topic: {SALES_TOPIC}\n")
+        print(f"Connected to Kafka broker at {KAFKA_BROKER}")
 
-        # Stream each sales header with its matching lines
-        for header_doc in header_col.find():
-            trans_no = header_doc.get("transNo")
-            if not trans_no:
-                continue
+        # Stream existing data once
+        stream_existing_sales_data(producer, header_col, line_col)
 
-            # Find matching sales lines
-            lines = list(line_col.find({"transNo": trans_no}))
-            header_doc["sales_lines"] = lines
-            header_doc["_id"] = str(header_doc["_id"])  # Convert ObjectId
-
-            for line in lines:
-                line["_id"] = str(line["_id"])  # Convert ObjectId
-
-            # Send to Kafka
-            producer.send(SALES_TOPIC, value=header_doc)
-            producer.flush()
-
-            print(f"[{datetime.now().strftime('%H:%M:%S')}] Streamed SALE: {trans_no} with {len(lines)} lines")
-
-            time.sleep(1)  # Optional pacing
+        # Then stream new inserts in real-time
+        stream_new_sales_data(producer, header_col, line_col)
 
     except NoBrokersAvailable:
         print(f"\nNo Kafka brokers available at {KAFKA_BROKER}.")
     except Exception as e:
-        print(f"\n Unexpected error: {e}")
+        print(f"\nUnexpected error: {e}")
     except KeyboardInterrupt:
         print("\nStream manually stopped.")
     finally:
